@@ -16,6 +16,7 @@ Task 3 (radiology report summarization):
 
 
 Organizers: 
+------------
 
 Asma Ben Abacha, NLM/NIH
 
