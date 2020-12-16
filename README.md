@@ -18,8 +18,12 @@ Task 3 (radiology report summarization):
 Organizers: 
 
 Asma Ben Abacha, NLM/NIH
+
 Chaitanya Shivade, Amazon
+
 Yassine Mrabet, NLM/NIH
+
 Yuhao Zhang, Stanford University
+
 Dina Demner-Fushman, NLM/NIH
 
