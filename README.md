@@ -1,4 +1,4 @@
-# MEDIQA2020
+# MEDIQA2021
 
 The second edition of the MEDIQA challenge will be organized at NAACL-BioNLP 2021 and will focus on summarization in the medical domain with three tasks: 
 Consumer health question summarization, Multi-answer summarization, and Radiology report summarization. 
