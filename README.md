@@ -11,11 +11,11 @@ Consumer health question summarization, Multi-answer summarization, and Radiolog
 
 Tasks: 
 -------
-Task 1 (question summarization): https://github.com/abachaa/MEDIQA2020/tree/main/Task1
+Task 1 (question summarization): https://github.com/abachaa/MEDIQA2021/tree/main/Task1
 
-Task 2 (multi-answer summarization): https://github.com/abachaa/MEDIQA2020/tree/main/Task2
+Task 2 (multi-answer summarization): https://github.com/abachaa/MEDIQA2021/tree/main/Task2
 
-Task 3 (radiology report summarization): https://github.com/abachaa/MEDIQA2020/tree/main/Task3
+Task 3 (radiology report summarization): https://github.com/abachaa/MEDIQA2021/tree/main/Task3
 
 
 Organizers: 
