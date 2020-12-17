@@ -51,19 +51,18 @@ def main():
     print(f"\ttrain = {len(split2ids['train'])}")
     print(f"\tdev = {len(split2ids['dev'])}")
     print(f"\ttest = {len(split2ids['test'])}")
-    print("")
 
     # write to output
     if args.train_file is not None and len(args.train_file) > 0:
-        print(f"Writing training data to file at {args.train_file}...")
+        print(f"\nWriting training data to file at {args.train_file}...")
         write_to_json('train', split2ids, id2data, args.train_file)
     
     if args.dev_file is not None and len(args.dev_file) > 0:
-        print(f"Writing dev data to file at {args.dev_file}...")
+        print(f"\nWriting dev data to file at {args.dev_file}...")
         write_to_json('dev', split2ids, id2data, args.dev_file)
     
     if args.test_file is not None and len(args.test_file) > 0:
-        print(f"Writing test data to file at {args.test_file}...")
+        print(f"\nWriting test data to file at {args.test_file}...")
         write_to_json('test', split2ids, id2data, args.test_file)
     return
 
