@@ -14,7 +14,9 @@ python make_mimic_data.py MIMIC_CXR_ZIP mimic_split_train_only.csv \
     --train_file train.json
     --dev_file dev.json
 ```
-where `MIMIC_CXR_ZIP` is the path to the compressed report zip file you should have downloaded. Feel free to replace the json file names to whatever you are comfortable with. Note that in the initial release of the task, you will only have training IDs, therefore you will only see a `train.json` after running the above command. You can rerun this script to generate the validation data after we release them in a later phase.
+where `MIMIC_CXR_ZIP` is the path to the compressed report zip file you should have downloaded. Feel free to replace the json file names to whatever you are comfortable with. Note that in the initial release of the task, you will only have training IDs, therefore you will only see a `train.json` after running the above command. You can rerun this script to generate the validation (dev) data after we release them in a later phase.
+
+After successfully running the script, you should be able to see 91,544 total training examples in your `train.json` file. If you are seeing a different number, please check if your downloaded file is corrupted, and re-download if necessary.
 
 Also note that it is a rule of this shared task that you are only allowed to use the reports in the resulting `train.json` file to train your summarization model. This is because we have reserved a portion of the rest of the reports in MIMIC-CXR for the purpose of testing your systems. It is therefore a violation of the rules to train your system with other reports in MIMIC-CXR.
 
