@@ -21,8 +21,8 @@ Also note that it is a rule of this shared task that you are only allowed to use
 File Structures
 --------------
 The output json files will contain examples as a list of dictionary entries, with each entry having the following keys:
-    - `study_id`: the study ID of the particular radiology report;
-    - `subject_id`: the unique (de-identified) ID of the patient that corresponds to this report;
-    - `findings`: the original radiology findings text (input to summarization);
-    - `impression`: the radiology impression text (output of summarization);
-    - `background`: background information of the study in text format (optional input).
+- `study_id`: the study ID of the particular radiology report (same as the original ID in MIMIC-CXR);
+- `subject_id`: the unique (de-identified) ID of the patient that corresponds to this report;
+- `findings`: the original human-written radiology findings text (input to summarization);
+- `impression`: the human-written radiology impression text (output of summarization);
+- `background`: background information of the study in text format (optional input to your system).
