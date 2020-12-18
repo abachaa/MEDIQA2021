@@ -65,15 +65,15 @@ def main():
 
     # write to output
     if args.train_file is not None and len(args.train_file) > 0:
-        print(f"\nWriting training data to file at {args.train_file}...")
+        print(f"\nWriting training data to {args.train_file}...")
         write_split_to_json('train', split2ids, id2data, args.train_file)
     
     if args.dev_file is not None and len(args.dev_file) > 0:
-        print(f"\nWriting dev data to file at {args.dev_file}...")
+        print(f"\nWriting dev data to {args.dev_file}...")
         write_split_to_json('dev', split2ids, id2data, args.dev_file)
     
     if args.test_file is not None and len(args.test_file) > 0:
-        print(f"\nWriting test data to file at {args.test_file}...")
+        print(f"\nWriting test data to {args.test_file}...")
         write_split_to_json('test', split2ids, id2data, args.test_file)
     return
 
@@ -143,7 +143,7 @@ def write_split_to_json(split, split2ids, id2data, filename):
     data = []
     ids = split2ids[split]
     if len(ids) == 0:
-        print(f"No id is found for {split} split. Skipping...")
+        print(f"No data is found for {split} split. Possible that the {split} split has not been released yet. Skipping...")
         return
     for study_id, subject_id in ids:
         data.append(id2data[study_id])
