@@ -7,7 +7,7 @@ Consumer health question summarization, Multi-answer summarization, and Radiolog
 
 - Mailing list: https://groups.google.com/forum/#!forum/bionlp-mediqa
 
-- Previous edition: https://github.com/abachaa/MEDIQA2019 
+- Previous edition: https://sites.google.com/view/mediqa2019 & https://github.com/abachaa/MEDIQA2019 
 
 Tasks: 
 -------
@@ -25,4 +25,5 @@ Organizers:
 - Chaitanya Shivade, Amazon
 - Yassine Mrabet, NLM/NIH
 - Yuhao Zhang, Stanford University
-- Dina Demner-Fushman, NLM/NIH
+- Curtis Langlotz, Stanford University
+- Dina Demner-Fushman, NLM/NIH 
