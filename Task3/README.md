@@ -50,6 +50,6 @@ As a summary, the information for our training, validation and test datasets is 
 | Training | 91,544 | MIMIC-CXR |
 | Dev1 | 2,000 | MIMIC-CXR |
 | Dev2 | 2,000 | Indiana University Dataset |
-| Test | 600   | Indianna University (300) + Stanford University (300) |
+| Test | 600   | Indiana University (300) + Stanford University (300) |
 
 As part of the shared task rules, we ask that you do not use other reports in the MIMIC-CXR or Indiana University dataset to train or validate your models.
