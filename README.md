@@ -5,6 +5,10 @@ Consumer health question summarization, Multi-answer summarization, and Radiolog
 
 - Website: https://sites.google.com/view/mediqa2021
 
+- Paper: https://www.aclweb.org/anthology/2021.bionlp-1.8.pdf 
+
+- Post-challenge Round: https://www.aicrowd.com/challenges/mediqa-2021 
+
 - Mailing list: https://groups.google.com/forum/#!forum/bionlp-mediqa
 
 - Previous edition: https://sites.google.com/view/mediqa2019 & https://github.com/abachaa/MEDIQA2019 
