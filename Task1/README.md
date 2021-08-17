@@ -13,10 +13,10 @@ For instance, the [CHQs Dataset](https://bmcbioinformatics.biomedcentral.com/tra
 
 **Validation and test sets** 
 
-Consist of consumer health questions received by the U.S. National Library of Medicine (NLM)  in December 2020 and their associated summaries, manually created by medical experts. 
+Consist of consumer health questions received by the U.S. National Library of Medicine (NLM) in December 2020 and their associated summaries, manually created by medical experts. 
 
 - The **validation set** is available [here](https://github.com/abachaa/MEDIQA2021/blob/main/Task1/MEDIQA2021-Task1-QuestionSummarization-ValidationSet.xlsx). It contains 50 NLM questions and their summaries. We also provided additional information (question focus and type) with the summaries. 
 
 - Please note that in the official test set, we will **not provide** the question focus and type for the test questions. Also, the **test questions** of the Question Summarization and Answer Summarization tasks will be different.  
 
-- The **test set** will be available for the registered participants with the official MEDIQA 2021 test sets on [AIcrowd](https://www.aicrowd.com/challenges/mediqa-2021/problems/mediqa-2021-question-summarization-qs), under the [Resources](https://www.aicrowd.com/clef_tasks/41/task_dataset_files?challenge_id=644) section.
+- The **test set** is available [here](https://github.com/abachaa/MEDIQA2021/blob/main/Task1/MEDIQA2021-Task1-TestSet-ReferenceSummaries.xlsx). It contains 100 consumer health questions and their reference summaries.  
